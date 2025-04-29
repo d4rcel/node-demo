@@ -1,0 +1,29 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4rcel/node-demo.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d4rcel/node-demo/issues"
+  },
+  "homepage": "https://github.com/d4rcel/node-demo#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^5.1.0",
+    "jest": "^29.7.0"
+  }
+}
